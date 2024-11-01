@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+.lm_holder{
+	clear:both;
+	width:200px;
+	height:40px;
+	margin:0;
+	padding:2px 10px;
+	border: 2px #999 solid;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	background-color:#FFF;
+}
+.lm_bar {
+	width:200px;
+	float:left;
+	position:relative;
+}
+span.my_meter {
+	background-color:#F00;
+	height:40px;
+	z-index:3;
+	position:absolute;
+	float:left;
+	color:transparent;
+}
+ul.my_lifemeter {
+	float:left;
+	width:200px;
+	margin:0;
+	padding:0;
+	position:absolute;
+	overflow:visible;
+	z-index:4;
+}
+ul.my_lifemeter li {
+	list-style:none;
+	background-image:url(heart.png);
+	width:40px;
+	height:40px;
+	margin:0;
+	padding:0;
+	float:left;
+	display:inline;
+	z-index:5;
+	color:transparent;
+}
